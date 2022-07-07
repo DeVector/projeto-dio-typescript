@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding-left: 0.5rem;
+    background-color: rgb(204, 204, 204);
+    border-radius: 0.3rem;
+}
+
+.login-style{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.login-style input{
+    margin: 0.5rem;
+}
+
+.login-style button{
+    padding: 0.4rem;
+    background-color: dodgerblue;
+    border-radius: 0.3rem;
+    color: black;
+}
+
+#search-container{
+    margin: 1rem;
+    background-color: rgb(204, 204, 204);
+    padding: 00.5rem;
+    border-radius: 0.3rem;
+}
+
+#search-container input{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    height: 100%;
+    width: 450px;
+}
+
+#search-container button{
+    padding: 0.2rem;
+    background-color: dodgerblue;
+    border-radius: 0.3rem;
+}
+
+ul{
+    padding-inline-start: 1rem;
+}
+
+#list-container{
+    margin: 1rem;
+    background-color: rgb(204, 204, 204);
+    padding: 00.5rem;
+    border-radius: 0.3rem;
+}
+
+#list-container input{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+#list-container button{
+    padding: 0.2rem;
+    background-color: dodgerblue;
+    border-radius: 0.3rem;
+}

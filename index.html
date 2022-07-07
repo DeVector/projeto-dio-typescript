@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project Typescript</title>
+
+    <script src="dist/app.js" defer></script>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <h2>Login</h2>
+        <div class="login-style">
+            <input id="username-login" type="email" placeholder="Username" onchange="validateLoginButton()">
+            <input id="password-login" type="password" placeholder="Password" onchange="validateLoginButton()">
+            <input id="apikey-login" type="text" placeholder="ApiKey" onchange="validateLoginButton()">
+            <button id="login-button" disabled>Logar</button>
+        </div>
+    </div>
+
+    <div id="search-container">
+        <input id="search" type="text" placeholder="Digite o nome do filme para pesquisar">
+        <button id="search-button">Pesquisar filme</button>
+    </div>
+
+    <div id="list-container">
+        <label for="list-id-movie">Adicionar filme a lista</label>
+        <input id="list-id-movie" type="number" placeholder="Digite o id do filme">
+        <button id="add-list">Adicionar</button>
+        <ul id="list-movie-user"></ul>
+    </div>
+
+</body>
+</html>
