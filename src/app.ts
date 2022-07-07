@@ -1,8 +1,4 @@
-/*Variaveis imutaveis do sistema*/
-//'6e53685f9cd250e17a5e0b981a499106';
-//'https://api.themoviedb.org/3/movie/550?api_key=6e53685f9cd250e17a5e0b981a499106';
-//'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2ZTUzNjg1ZjljZDI1MGUxN2E1ZTBiOTgxYTQ5OTEwNiIsInN1YiI6IjYyYzQ3ZTBiOTY3MmVkMjNjZjMwMzJkMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.uo3os5HyhYU2hUUTj0KAYR1ea42GzxNxyLPilOAulbA';
-//'https://www.themoviedb.org/search?query=pousando+no+amor';
+
 let requestToken: string;
 let sessionId: number;
 let listId = '7101979';
